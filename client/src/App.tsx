@@ -1,11 +1,9 @@
-import React from 'react';
+import React from "react";
+import "./style/style.css";
+import Sentiment from "./sentiment/Sentiment.tsx";
 
-function App() {
-  return (
-    <div className="App">
-      Hello World
-    </div>
-  );
-}
+const App = () => {
+  return <Sentiment></Sentiment>;
+};
 
 export default App;
